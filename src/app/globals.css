@@ -1,0 +1,9 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #07080f; color: #d4d8f0; font-family: 'IBM Plex Mono', 'Courier New', monospace; min-height: 100vh; }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #07080f; }
+::-webkit-scrollbar-thumb { background: #5b8fff; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+@keyframes shimmer { 0%{background-position:-600px 0} 100%{background-position:600px 0} }
+@keyframes spin { to{transform:rotate(360deg)} }
